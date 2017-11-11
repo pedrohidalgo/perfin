@@ -1,0 +1,39 @@
+{
+  "name": "superdash",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "author": "Pedro Hidalgo",
+  "license": "MIT",
+  "scripts": {
+    "start-server": "node src/backend/express_sample",
+    "simple-test": "node src/backend/index.js",
+    "lint": "./node_modules/.bin/eslint ./",
+    "test": "jest --config=jest.config.js ",
+    "run-backend-dev": "webpack-dev-server"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "caterpillar": "^3.0.1",
+    "caterpillar-human": "^3.0.0",
+    "express": "^4.16.2",
+    "joi": "^13.0.1",
+    "lodash": "^4.17.4",
+    "moment": "^2.19.1",
+    "mongoose": "^4.12.4"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-jest": "^21.2.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "eslint": "^4.10.0",
+    "eslint-plugin-jest": "^21.2.0",
+    "eslint-plugin-react": "^7.4.0",
+    "eslint-watch": "^3.1.3",
+    "jest": "^21.2.1",
+    "webpack": "^3.8.1",
+    "webpack-dev-server": "^2.9.3"
+  }
+}
