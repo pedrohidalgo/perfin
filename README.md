@@ -1,4 +1,5 @@
-##Personal Finance Simple App
+Personal Finance Simple App
+===
 
 ####Work in Progress!
 
@@ -15,9 +16,15 @@
 * Mongoose
 * Docker
 
-Features:
+**Features:**
 
 * [DONE] Logger
 * [DONE] ServiceLayer
 * [DONE] RepositoryLayer
 * [DONE] by now just one Entity CRUD using Mongoose.
+
+
+**Running app**
+
+Before running the tests make sure you execute: "docker-compose up -d" so that 
+the mongodb service is up.
