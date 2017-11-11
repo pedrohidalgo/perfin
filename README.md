@@ -1,9 +1,11 @@
 Personal Finance Simple App
 ===
 
-####Work in Progress!
+Work in Progress!
+-----
 
-#####The purpose of this repo is just to demonstrate a tiny working app using serveral common tools.
+The purpose of this repo is just to demonstrate a tiny working app using serveral common tools.
+-----
 
 **Tools used:**
 
