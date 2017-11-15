@@ -20,13 +20,12 @@ Work in Progress!
 
 **Features:**
 
-* [DONE] Logger
-* [DONE] ServiceLayer
-* [DONE] RepositoryLayer
-* [DONE] by now just one Entity CRUD using Mongoose.
+* [x] Logger
+* [x] ServiceLayer
+* [x] RepositoryLayer
+* [x] by now just one Entity CRUD using Mongoose.
 
 
 **Running app**
 
-Before running the tests make sure you execute: "docker-compose up -d" so that 
-the mongodb service is up.
+Before running the tests make sure you execute: "docker-compose up -d" so that the mongodb service is up.
